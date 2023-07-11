@@ -27,7 +27,7 @@ sales_analysis/
 
   <h2>Data Preparation</h2>
   <p>
-    To perform the analysis, the individual CSV files for each month were merged into a single DataFrame. The data was cleaned by dropping NaN values, removing rows with invalid quantities or prices, and converting column data types. New columns were created to represent the month and city of each transaction.
+    To perform the analysis, the individual CSV files for each month were merged into a single DataFrame. The data was cleaned by dropping NaN values, removing rows with invalid quantities or prices and converting column data types. New columns were created to represent the month and city of each transaction.
   </p>
   <pre><code>
 # Merge data from each month into one DataFrame
